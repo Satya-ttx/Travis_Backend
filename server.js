@@ -17,6 +17,7 @@ db.once("open", () => console.log("Connected to MongoDB"));
 // User Schema
 const userSchema = new mongoose.Schema({
   email: String,
+  user:String,
   password: String,
   role: String,
 });
